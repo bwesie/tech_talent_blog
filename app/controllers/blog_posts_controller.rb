@@ -5,7 +5,7 @@ class BlogPostsController < ApplicationController
 	include ApplicationHelper
 
 	def user_posts
-		@user = User.find_by(username: params[:name])
+		@user = User.find_by(username: params[:username])
 	end
 
 	def index

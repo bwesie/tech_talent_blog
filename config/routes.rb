@@ -8,5 +8,7 @@ Rails.application.routes.draw do
 
   get '/:name' => 'blog_posts#user_posts', as: :user_posts
 
+  get 'contact' => 'layouts/contact'
+
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
